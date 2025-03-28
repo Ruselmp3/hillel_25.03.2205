@@ -1,4 +1,4 @@
-x = int(input("Vvedit' 4 zhachne shislo: "))
+x = int(input("Vvedit' 4 zhachne chislo: "))
 
 a1 = (x // 1000)
 a2 = ((x // 100) % 10)
