@@ -1,6 +1,0 @@
-print("Hello world!")
-print("you123")
-print("you123")
-print("lol")
-print("lol1")
-print("lol2")
