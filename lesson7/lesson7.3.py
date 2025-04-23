@@ -10,3 +10,4 @@ assert second_index("sims","s") == 3, 'Test 1'
 assert second_index("find the river", "e") == 12, 'Test 2'
 assert second_index("hi", "h") is None, 'Test3'
 assert second_index("Hello, hello", "lo") == 10, 'Test 4'
+print('OK')
