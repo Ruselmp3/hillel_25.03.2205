@@ -1,4 +1,4 @@
-def correct_sentence(text) -> str:
+def correct_sentence(text: str) -> str:
     if text[-1] != ".":
         text = text + "."
     if not text[0].isupper():
