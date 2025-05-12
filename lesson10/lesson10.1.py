@@ -4,7 +4,7 @@ from typing import Callable
 def pow(x: int) -> int:
     return x ** 2
 
-def some_gen(begin, end, func):
+def some_gen(begin: int, end: int, func: int | int) -> int | None | None:
     """
      begin: перший елемент послідовності
      end: кількість елементів у послідовності
