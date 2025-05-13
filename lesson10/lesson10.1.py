@@ -1,14 +1,14 @@
-from typing import Callable
+from typing import Callable, Generator
 
 
 def pow(x: int) -> int:
     return x ** 2
 
-def some_gen(begin: int, end: int, func: int | int) -> int | None | None:
+def some_gen(begin: int, end: int, func: Callable[[int], int]) -> Generator[int, None, None]:
     """
-     begin: перший елемент послідовності
-     end: кількість елементів у послідовності
-     func: функція, яка формує значення для послідовності
+    begin: перший елемент послідовності
+    end: кількість елементів у послідовності
+    func: функція, яка формує значення для послідовності
     """
     for i in range(end):
         yield begin
